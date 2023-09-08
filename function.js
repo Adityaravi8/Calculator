@@ -11,7 +11,7 @@ function allClear() {
 function deleteButton() {
 
     let output = document.getElementById('display');
-    output.value = output.value.splice(0, -1);
+    output.value = output.value.slice(0, -1);
 }
 
 function calculate() {
