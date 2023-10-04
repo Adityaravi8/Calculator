@@ -1,42 +1,33 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
 
-    <head>
-        <title>Calculator</title>
-        <link href="style.css" rel="stylesheet">
-        
+  <body>
+    <div class="calculator-grid">
+      <input type="text" id="display" disabled />
 
-    </head>
-
-    <body>
-
-        <div class="calculator-grid">
-
-            <input type="text" id="display" disabled>
-
-            <button onclick="allClear()">AC</button>
-            <button onclick="deleteButton()">DEL</button>
-            <button onclick="addtoDisplay('/')">/</button>
-            <button onclick="addtoDisplay('1')">1</button>
-            <button onclick="addtoDisplay('2')">2</button>
-            <button onclick="addtoDisplay('*')">*</button>
-            <button onclick="addtoDisplay('3')">3</button>
-            <button onclick="addtoDisplay('4')">4</button>
-            <button onclick="addtoDisplay('+')">+</button>
-            <button onclick="addtoDisplay('5')">5</button>
-            <button onclick="addtoDisplay('6')">6</button>
-            <button onclick="addtoDisplay('.')">.</button>
-            <button onclick="addtoDisplay('7')">7</button>
-            <button onclick="addtoDisplay('8')">8</button>
-            <button onclick="addtoDisplay('-')">-</button>
-            <button onclick="addtoDisplay('9')">9</button>
-            <button onclick="addtoDisplay('0')">0</button>
-            <button onclick="calculate()">=</button>
-
-           
-
-        </div>
-        <script src="function.js"></script>
-    </body>
-
+      <button onclick="allClear()">AC</button>
+      <button onclick="deleteButton()">DEL</button>
+      <button onclick="addtoDisplay('/')">÷</button>
+      <button onclick="addtoDisplay('1')">1</button>
+      <button onclick="addtoDisplay('2')">2</button>
+      <button onclick="addtoDisplay('*')">*</button>
+      <button onclick="addtoDisplay('3')">3</button>
+      <button onclick="addtoDisplay('4')">4</button>
+      <button onclick="addtoDisplay('+')">+</button>
+      <button onclick="addtoDisplay('5')">5</button>
+      <button onclick="addtoDisplay('6')">6</button>
+      <button onclick="addtoDisplay('.')">.</button>
+      <button onclick="addtoDisplay('7')">7</button>
+      <button onclick="addtoDisplay('8')">8</button>
+      <button onclick="addtoDisplay('-')">-</button>
+      <button onclick="addtoDisplay('9')">9</button>
+      <button onclick="addtoDisplay('0')">0</button>
+      <button onclick="calculate()">=</button>
+    </div>
+    <script src="function.js"></script>
+  </body>
 </html>
